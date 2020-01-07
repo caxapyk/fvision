@@ -1,0 +1,100 @@
+/**
+ * Fvision CSS
+ * @author Alexander Sakharuk
+ * @version 1.0.0
+ */
+
+.fvision_container {
+    display: none;
+    padding: 10px;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    z-index: 9999;
+    border-bottom: 2px solid;
+    width: 100%;
+    letter-spacing: normal;
+    font-size: 16px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: inherit!important;
+}
+
+.fvision-control {
+    padding: 10px;
+    border: 2px solid;
+    text-decoration: none;
+    cursor: pointer;
+    color:inherit!important
+}
+
+.fvision-control:hover {
+    text-decoration: none;
+    border-color: blue;
+}
+.fvision-active {
+    border-color: blue;
+}
+.fvision-control-group{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fvision-color-white {
+    background: white !important;
+    color: black !important;
+    border-color: black !important;
+}
+
+.fvision-color-black {
+    background: black !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.fvision-color-blue {
+    background: #9dd1ff !important;
+    color: #063462 !important;
+    border-color: #063462 !important;
+}
+
+a.fvision-color-white, a.fvision-color-black, a.fvision-color-blue{
+        text-decoration: underline !important;
+}
+
+.fvision-img-grayscale {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+/** Placeholder font color */
+.fvision-color-white::-webkit-input-placeholder {color: black}
+.fvision-color-white::-webkit-input-placeholder {color: black}
+.fvision-color-white::-moz-placeholder          {color: black}
+.fvision-color-white:-moz-placeholder           {color: black}
+.fvision-color-white:-ms-input-placeholder      {color: black}
+.fvision-color-black::-webkit-input-placeholder {color: white}
+.fvision-color-black::-moz-placeholder          {color: white}
+.fvision-color-black:-moz-placeholder           {color: white}
+.fvision-color-black:-ms-input-placeholder      {color: white}
+.fvision-color-blue::-webkit-input-placeholder {color: #063462}
+.fvision-color-blue::-moz-placeholder          {color: #063462}
+.fvision-color-blue:-moz-placeholder           {color: #063462}
+.fvision-color-blue:-ms-input-placeholder      {color: #063462}
+.fvision-color-white::-webkit-input-placeholder {color: black}
+.fvision-color-white:focus::-webkit-input-placeholder {color: black}
+.fvision-color-white:focus::-moz-placeholder          {color: black}
+.fvision-color-white:focus:-moz-placeholder           {color: black}
+.fvision-color-white:focus:-ms-input-placeholder      {color: black}
+.fvision-color-black:focus::-webkit-input-placeholder {color: white}
+.fvision-color-black:focus::-moz-placeholder          {color: white}
+.fvision-color-black:focus:-moz-placeholder           {color: white}
+.fvision-color-black:focus:-ms-input-placeholder      {color: white}
+.fvision-color-blue:focus::-webkit-input-placeholder {color: #063462}
+.fvision-color-blue:focus::-moz-placeholder          {color: #063462}
+.fvision-color-blue:focus:-moz-placeholder           {color: #063462}
+.fvision-color-blue:focus:-ms-input-placeholder      {color: #063462}
